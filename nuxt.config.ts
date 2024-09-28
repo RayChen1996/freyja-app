@@ -14,6 +14,13 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss"],
   app: {
     head: {
+      title: "享樂酒店",
+      meta: [
+        {
+          name: "高雄豪華住宿之選",
+          content: "我們致力於為您提供無與倫比的奢華體驗與優質服務",
+        },
+      ],
       link: [
         {
           rel: "stylesheet",
